@@ -1,5 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
+/* MOBILE VIEW */
+@media screen and (min-width: 320px) and (max-width: 519px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+  }
+
+  .digital-clock {
+    width: 95%;
+    height: 30%;
+    background-color: #212121;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    color: white;
+    font-size: 2.7rem;
+  }
+}
+
+/* TAB VIEW */
+
+@media screen and (min-width: 520px) and (max-width: 919px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+  }
+
+  .digital-clock {
+    width: 90%;
+    height: 25%;
+    background-color: #212121;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  p {
+    color: white;
+    font-size: 5rem;
+  }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 920px) {
 * {
   margin: 0;
   padding: 0;
@@ -29,4 +101,5 @@ body {
 p {
   color: white;
   font-size: 7rem;
+}
 }
