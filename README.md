@@ -1,3 +1,3 @@
 # digital-clock
 
-https://user-vishnu.github.io/digital-clock/
+https://IncarnatorX.github.io/digital-clock/
